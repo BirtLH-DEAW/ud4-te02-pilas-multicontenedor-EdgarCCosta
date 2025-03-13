@@ -15,7 +15,7 @@
 
 	// Podemos usar el nombre que le hemos dado a la BBDD en docker-compose.yml
 	// o usar la IP de la máquina virtual Docker, en mi caso 192.168.99.107
-	$enlace = mysqli_connect("mysql", "froga", "froga", "froga");
+	$enlace = mysqli_connect("mysql", "dwes", "dwes", "dwes");
 
 	/* comprobar la conexión */
 	if (mysqli_connect_errno()) {
